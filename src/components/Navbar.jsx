@@ -65,7 +65,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <a href="#" className="flex items-center space-x-2">
+            <a href="/" className="flex items-center space-x-2">
               <span className="text-2xl">{navigation.logo.icon}</span>
               <span className={`font-bold text-xl ${scrolled ? 'text-gray-900' : 'text-white'}`}>
                 {navigation.logo.text}
