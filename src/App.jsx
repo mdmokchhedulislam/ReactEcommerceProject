@@ -5,6 +5,7 @@ import MainLayout from "./Layout/MainLayout";
 import Login from "./pages/Login";
 import Navbar from "./components/Navbar";
 import Signup from "./pages/Register";
+import Cart from "./pages/Cart";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </MainLayout>
     </BrowserRouter>
